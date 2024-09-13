@@ -1,4 +1,3 @@
-# Snake
 denumirea proiectului
 2. ce reprezintă proiectul
 3. care sunt regulile jocului Snake
