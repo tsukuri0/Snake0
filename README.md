@@ -1,8 +1,5 @@
 # Snake
-denumirea proiectului
-2. ce reprezintă proiectul
-3. care sunt regulile jocului Snake
-4. enumerați toate tipurile de date noi declarate, oferiți-le o scurtă explicație (ce reprezintă obiectele de acest tip).
+
 
 Point:
 Reprezintă o structură simplă care definește coordonatele unui punct în spațiul 2D. Are două atribute: x și y, ce indică poziția pe axele X și Y ale jocului. Această structură va fi utilizată pentru a indica poziția șarpelui, a mărului și a altor elemente de pe tablă.
