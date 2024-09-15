@@ -5,5 +5,7 @@
 class Painter {
 public:
    void DrawImage(Point topLeft, Point bottomRight, char** image);
-   void WriteText(Point position, char* text);
+   void WriteText(Point position, const char* text);
+   void DrawPacman(Point position);
+   void DrawGhost(Point position, bool isScared);
 };

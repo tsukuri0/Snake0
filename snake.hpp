@@ -14,4 +14,17 @@ public:
    int GetSize() const;
    Point GetPosition() const;
    void Eat(const Apple& apple);
+   
+   // adaugam metoda IsCollision
+   bool IsCollision() const;
 };
+
+// implementarea metodei IsCollision
+bool Snake::IsCollision() const {
+   for (int i = 1; i < _nr_segments; i++) {
+      if (_segments[0].x == _segments[i].x && _segments[0].y == _segments[i].y) {
+         return true;
+      }
+   }
+   return false;
+}

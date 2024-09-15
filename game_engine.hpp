@@ -1,14 +1,17 @@
 #pragma once
-#include "apple.hpp"
-#include "snake.hpp"
+#include "pacman.hpp"
+#include "ghost.hpp"
 #include "board.hpp"
 
 class GameEngine {
-   Apple _apple;
-   Snake _snake;
+   Pacman _pacman;
+   Ghost _ghosts[4];
    Board _board;
+   int _score;
 public:
    GameEngine();
    void Init();
    void Run();
+   void Update();
+   int GetScore() const;
 };
