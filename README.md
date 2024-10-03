@@ -11,5 +11,5 @@ a. Curățarea directorului de fișiere obiect și executabile anterioare
 Compilarea și construirea proiectului
 Acum poți construi aplicația folosind comanda make. Aceasta va compila toate fișierele sursă (.cpp), creând fișiere obiect (.o), și în final va lega aceste fișiere pentru a crea executabilul.
 
-g++ apple.cpp -o apple.o -c: Această comandă compilează fișierul apple.cpp și creează fișierul obiect apple.o. Parametrul -c indică că trebuie creat un fișier obiect.
+b.  g++ apple.cpp -o apple.o -c: Această comandă compilează fișierul apple.cpp și creează fișierul obiect apple.o. Parametrul -c indică că trebuie creat un fișier obiect.
 g++ -o Snake.exe: Aceasta este comanda finală care leagă toate fișierele obiect pentru a crea executabilul Snake.exe.
