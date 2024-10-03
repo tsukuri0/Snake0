@@ -53,9 +53,3 @@ Acest proiect implementează un joc simplificat Pacman, utilizând limbajul C++ 
 ### 9. `direction.hpp` și `direction.cpp`
 - **Descriere:** Definirea direcțiilor în care Pacman și fantomele se pot deplasa. Acesta este un `enum class` care conține valorile `Top`, `Left`, `Right`, și `Bottom`.
 
-## Cum să compilezi proiectul
-
-1. **Deschide terminalul** și navighează în directorul proiectului:
-
-   ```bash
-   cd path/to/project
