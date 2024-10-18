@@ -1,11 +1,9 @@
 #pragma once
 
-#include "point.hpp"
+#include "painter.hpp"
 
-class Painter {
+class Painter: public Painter {
 public:
-   void DrawImage(Point topLeft, Point bottomRight, char** image);
-   void WriteText(Point position, const char* text);
-   void DrawPacman(Point position);
-   void DrawGhost(Point position, bool isScared);
+   virtual void DrawImage(Point topLeft, Point bottomRight, char** image);
+   virtual void WriteText(Point position, char* text);
 };
